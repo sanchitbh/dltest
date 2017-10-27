@@ -34,4 +34,5 @@ $server = array_merge($_SERVER, $server, @array(
 
 $_SERVER = $server;
 
+print 'hello!';
 print json_encode($_SERVER);
